@@ -10,5 +10,10 @@ jobs:
         run: echo "Hello world"
       - name: Goodbye
         run: echo "Done - Goodbye"
+      - name: Multiline step
+        run: |
+          echo "First command"
+          echo "Second command"
+          
         
       
